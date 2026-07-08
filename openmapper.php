@@ -90,6 +90,7 @@ class OPM_Core_Bootstrap {
         // Pass PHP variables to JS context
         $opm_settings = array(
             'ajaxUrl'    => admin_url( 'admin-ajax.php' ),
+            'nonce'      => wp_create_nonce( 'opm_ajax_nonce' ),
             'defaultLat' => get_option( 'opm_global_settings' )['default_lat'] ?? '41.902',
             'defaultLng' => get_option( 'opm_global_settings' )['default_lng'] ?? '12.496',
         );
