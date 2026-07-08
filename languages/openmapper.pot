@@ -1,0 +1,75 @@
+# Copyright (C) 2026 OpenMapper Team
+# This file is distributed under the same license as the OpenMapper plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenMapper 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/openmapper\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-07-08T20:00:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"X-Domain: openmapper\n"
+
+#. Plugin Name of the plugin
+msgid "OpenMapper"
+msgstr ""
+
+#. Description of the plugin
+msgid "Decentralized GIS mapping engine for civic crowdsourcing and territorial intelligence. Fully theme independent."
+msgstr ""
+
+#: core/class-opm-pods-deployer.php:28
+msgid "Regions"
+msgstr ""
+
+#: core/class-opm-pods-deployer.php:29
+msgid "Region"
+msgstr ""
+
+#: core/class-opm-pods-deployer.php:39
+msgid "Cities"
+msgstr ""
+
+#: core/class-opm-pods-deployer.php:40
+msgid "City"
+msgstr ""
+
+#: core/class-opm-pods-deployer.php:50
+msgid "Map Categories"
+msgstr ""
+
+#: core/class-opm-pods-deployer.php:51
+msgid "Category"
+msgstr ""
+
+#: core/class-opm-pods-deployer.php:65
+msgid "Cartographic Maps"
+msgstr ""
+
+#: core/class-opm-pods-deployer.php:66
+msgid "Map"
+msgstr ""
+
+#: core/class-opm-admin-wizard.php:19
+msgid "OpenMapper Settings"
+msgstr ""
+
+#: core/class-opm-admin-wizard.php:39
+msgid "OpenMapper Engine Settings"
+msgstr ""
+
+#: frontend/class-opm-user-dashboard.php:16
+msgid "Please log in."
+msgstr ""
+
+#: frontend/class-opm-user-dashboard.php:23
+msgid "My Cartographic Projects"
+msgstr ""
+
+#: frontend/class-opm-user-dashboard.php:24
+msgid "New Map"
+msgstr ""
