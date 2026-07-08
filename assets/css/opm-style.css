@@ -1,0 +1,9 @@
+.opm-wrapper { font-family: system-ui, sans-serif; }
+.opm-custom-marker-wrapper {
+    background: transparent; border: none; text-align: center;
+    display: flex; justify-content: center; align-items: center;
+}
+.opm-custom-marker-wrapper i {
+    font-size: 24px; filter: drop-shadow(0 2px 2px rgba(0,0,0,0.5)); transition: 0.2s;
+}
+.opm-custom-marker-wrapper:hover i { transform: scale(1.1); }
