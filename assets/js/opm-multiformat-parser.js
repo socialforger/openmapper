@@ -34,7 +34,7 @@ function opmInjectFeatures(features, mapId, logEl) {
     let done = 0;
     features.forEach((feat, i) => {
         setTimeout(() => {
-            const p = new URLSearchParams({ action: 'opm_save_geometry', title: `Imported #${i+1}`, geojson: JSON.stringify(feat), belongs_to_map: mapId });
+            const p = new URLSearchParams({ action: 'opm_save_geometry', nonce: opmSettings.nonce, title: `Imported #${i+1}`, geojson: JSON.stringify(feat), belongs_to_map: mapId });
             fetch(opmSettings.ajaxUrl, { method: 'POST', body: p }).then(() => {
                 done++;
                 if(done === features.length) {
