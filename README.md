@@ -13,10 +13,18 @@ OpenMapper is a decentralized GIS mapping engine designed for civic crowdsourcin
 * **Graphic Font Markers:** Leverages vector icons (FontAwesome/Dashicons) via `L.divIcon` to create ultra-lightweight, dynamic pins.
 * **Auto-Configuration:** Automatically deploys Taxonomies, Relationships, and Custom Post Types (CPTs) through a silent integration with Pods.
 
+## Required Dependencies
+OpenMapper relies on a specific bundle of standard WordPress plugins to operate. The system will prompt you to install them automatically upon activation (via the TGMPA standard):
+
+* **Pods - Custom Content Types and Fields:** The database engine. Handles the creation of CPTs (Maps, Layers) and Taxonomies (Regions, Cities, Categories) seamlessly.
+* **Leaflet Map:** The core mapping library foundation for rendering the geographical interface.
+* **Extensions for Leaflet Map:** Unlocks native vector (GeoJSON) parsing and built-in marker clustering logic, preventing map overload (Overplotting).
+* **Filter Everything — WordPress Filters:** The AJAX-powered engine used to search the public map archive and seamlessly toggle specific pin categories on the active map without reloading the page.
+
 ## Installation
 1. Upload the `openmapper` folder to the `/wp-content/plugins/` directory on your server, or upload the zipped package directly from the WordPress dashboard (Plugins -> Add New).
 2. Activate the plugin.
-3. Follow the prompt at the top of your WordPress dashboard for the **bulk installation (TGMPA)** of the required plugin bundle (Pods, Leaflet Map, Extensions for Leaflet Map, Filter Everything).
+3. Follow the prompt at the top of your WordPress dashboard to **Begin installing plugins** and complete the bulk installation of the required dependencies.
 
 ## Available Shortcodes
 
