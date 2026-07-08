@@ -51,6 +51,7 @@ class OPM_Frontend_Wizard {
             
             const p = new URLSearchParams({
                 action: 'opm_create_map_container_ajax',
+                nonce: opmSettings.nonce,
                 title: title,
                 privacy: document.getElementById('opm_wiz_privacy').value,
                 drive_url: document.getElementById('opm_wiz_drive').value
